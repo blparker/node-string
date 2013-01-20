@@ -16,8 +16,8 @@ Or manually:
 
 var replace = require('node-string')
 
-str = replace('Hello, ${test}', 'world');   // Hello, world
-str = replace('Hello, ${test}', { test : 'world' });  // Hello, world
-str = replace('Hello ${test} foo ${bar}', { test : 'world', bar : 'biz' });   // Hello world foo biz
-str = replace('The ${data.one} brown ${data.two} jumped', { data : { one : 'quick', two : 'fox' } });   // The quick brown fox jumped
+    str = replace('Hello, ${test}', 'world');   // Hello, world
+    str = replace('Hello, ${test}', { test : 'world' });  // Hello, world
+    str = replace('Hello ${test} foo ${bar}', { test : 'world', bar : 'biz' });   // Hello world foo biz
+    str = replace('The ${data.one} brown ${data.two} jumped', { data : { one : 'quick', two : 'fox' } });   // The quick brown fox jumped
 
