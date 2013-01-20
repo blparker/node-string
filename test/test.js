@@ -1,5 +1,5 @@
 
-var replace = require('../lib/index2')
+var replace = require('../lib/index')
   , assert = require('assert');
 
 var tests = [

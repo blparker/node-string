@@ -1,0 +1,16 @@
+{
+  "name" : "node-string",
+  "version" : "0.0.1",
+  "author" : "bryan@parcorp.co",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/blparker/node-string"
+  },
+  "keywords" : [
+    "string",
+    "replace"
+  ],
+  "engines" : {
+    "node" : ">=0.6"
+  }
+}
